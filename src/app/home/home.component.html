@@ -1,0 +1,48 @@
+
+<div class="sticky-nav-wrapper">
+<div fxLayout="column" fxLayoutAlign="space-evenly stretch"  (scroll)="onWindowScroll($event);">
+
+<mat-grid-list cols="1" rowHeight="1:0.5" >
+
+<div fxLayout="row"  >
+  <mat-grid-tile>
+    <app-home1 fxFill><!--section 1-->
+      </app-home1>
+    </mat-grid-tile>
+</div>
+
+  <mat-grid-tile>
+     <app-home3 ><!--section 3-->
+    </app-home3>
+    </mat-grid-tile>
+
+  <mat-grid-tile  >
+    <app-home2><!--section 2-->
+    </app-home2>
+   
+    </mat-grid-tile>
+
+  <mat-grid-tile>
+      <app-home4 ><!--section 4-->
+    </app-home4>
+  </mat-grid-tile>
+
+  <mat-grid-tile>
+       <app-home5 ><!--section 5-->
+    </app-home5>
+    </mat-grid-tile>
+
+
+
+  <mat-grid-tile>
+       <app-home6 fxFill><!--section 5-->
+    </app-home6>
+    </mat-grid-tile>
+
+</mat-grid-list>
+</div>
+
+<app-footer></app-footer>
+
+</div>
+  

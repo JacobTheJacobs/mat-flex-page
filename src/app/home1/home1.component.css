@@ -1,0 +1,20 @@
+.parent {
+  position: relative;
+}
+
+.child{
+  position: absolute;
+  top: 5%;
+  width:100%;
+  height:auto;
+ 
+}
+
+mat-card{
+
+  background-image:url('https://dspncdn.com/a1/media/692x/3f/f6/d6/3ff6d6ee00839b7ea77ee47a7565db1f.jpg');
+}
+
+.content{
+  color: white;
+}
